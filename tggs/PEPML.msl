@@ -1,0 +1,154 @@
+metamodel PEPML {
+    EducationProgramme {
+        .name: EString
+        .description: EString
+        <+>-entities(0..*)->Entity
+    }
+    Entity {
+        .name: EString
+        .description: EString
+        -categories(0..*)->Category
+		-hasTask(0..*)->Task
+        -hasComment(0..*)->Comment
+        -hasDecision(0..*)->Decision
+        -relatesTo(0..*)->Entity {
+            .label: EString
+            .sourceLabel: EString
+            .targetLabel: EString
+            .type: EString
+        }
+        -hasStatus(0..1)->Status
+    }
+    Category : Entity {
+        .colour: EString
+    }
+    Objective : Entity {
+        -subObjectiveOf(0..*)->Objective
+        -relevantFor(0..*)->Persona
+        -refersTo(0..*)->Topic
+    }
+    Person : Entity {
+        .isAbstract: EBoolean
+    }
+
+    Comment : Entity {
+        .author: EString
+    }
+    Task : Entity {
+	    -associatedTo(0..1)->Entity
+	}
+    Status: Entity {
+        .isClosed: EBoolean
+    }
+    TaskConstraint: Entity {
+        .constraintStr: EString
+        -definedFor(0..*)->Task
+        -appliesTo(0..*)->Status
+        -failureStatus(1..1)->Status
+    }
+    Decision: Task {
+        .decision: EString
+        .consequences: EString
+    }
+    
+    Educator : Person {
+        -familiarWith(0..*)->Topic {
+		  .label: EString
+		}
+        -involvedIn(0..*)->EducationComponent {
+            .role: EString
+        }
+    }
+    Persona: Person
+    Company: Person
+    Audience: Person {
+        .sizeMin: EInt
+        .sizeMax: EInt
+        <>-representedBy(0..*)->Persona
+    }        
+    Topic : Entity {
+        .isOptional: EBoolean
+        -subTopicOf(0..*)->Topic {
+          .label:EString
+        }
+    }
+    Goal: Objective
+    
+    Outcome: Objective
+
+    EducationComponent : Entity {
+        .startDate: EString
+        .startTime: EString
+        .duration: EString
+        .language: EString
+        .isOnline: EBoolean
+        .isSync: EBoolean
+        .isMandatory: EBoolean
+        -requires(0..*)->EducationComponent
+        -previousVersion(0..*)->EducationComponent
+        -next(0..*)->EducationComponent        
+        -parallel(0..*)->EducationComponent
+        <>-objectives(0..*)->Objective
+        -covers(0..*)->Topic
+        -in(0..*)->Location
+        -resources(0..*)->Resource
+        -activities(0..*)->Activity
+        -inTracks(0..*)->Track
+    }
+    EducationComposite: EducationComponent {
+        <>-contains(0..*)->EducationComponent
+    }
+   TimePlanningComposite: EducationComposite {
+     -hasTracks(0..*)->Track
+   }
+   Track: Entity 
+    Gap: EducationComponent {
+    	.type: EString
+    }
+    InstructorLedSession: EducationComponent
+    Feedback: EducationComponent
+    Deliverable: EducationComponent {
+    	.deadline: EString
+    }
+    ProjectBasedLearning: EducationComponent {
+    	.groupSizeMin: EInt
+    	.groupSizeMax: EInt
+    	.groupCountMin: EInt
+    	.groupCountMax: EInt
+    }
+    Assessment: Entity {
+        .duration: EString
+        .isMandatory: EBoolean
+    }
+    
+	Activity: Entity {
+        .duration: EString
+        -addresses(0..*)->Objective
+        -next(0..*)->Activity
+        -in(0..*)->Location
+        -uses(0..*)->Resource
+	}
+	Quiz: Activity
+	Presentation: Activity
+	Discussion: Activity
+	Exercise: Activity {
+		.groupSizeMin: EInt
+		.groupSizeMax: EInt
+	}
+
+    Resource: Entity
+    Material: Resource
+    Tool: Resource
+    Location: Entity
+    DigitalLocation: Location
+
+	EvaluationStrategy: Entity {
+		-evaluates(0..*)->Entity
+	}
+	Survey: EvaluationStrategy
+	Interview: EvaluationStrategy
+	EvaluationResult: Entity {
+		-basedOn(1..1)->EvaluationStrategy
+		-resultFor(0..*)->Entity
+	}
+}

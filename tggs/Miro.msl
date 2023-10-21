@@ -1,0 +1,64 @@
+metamodel Miro {
+	Board {
+		.id: EString
+		<+>-items(0..*)->Item
+	}
+	abstract Item {
+		.id : EString
+		-connectedTo(0..*)->Item {
+			.startCap: EString
+			.endCap: EString
+		    .caption: EString
+		}
+	}
+	abstract GeometricItem : Item {
+		.x: EDouble
+		.y: EDouble
+		.width: EDouble
+		.height: EDouble
+		.meta_type: EString
+        .meta_area: EString
+		.isArea: EBoolean
+		.borderStyle: EString
+		-contains(0..*)->GeometricItem
+		-east(0..*)->GeometricItem
+		-south(0..*)->GeometricItem
+        -spans(0..*)->GeometricItem
+	}
+	abstract ContentItem : GeometricItem {
+        .duration: EString
+        .text: EString
+        .startTime: EString
+        .name: EString							  
+		.content: EString
+	}
+	abstract TitleItem: GeometricItem {
+		.title: EString
+    }
+	Shape : ContentItem {
+		.rotation: EInt
+	}
+	Rectangle : Shape
+	Circle : Shape
+	RoundRectangle : Shape
+	Text : ContentItem {
+		.rotation: EInt
+	}
+	StickyNote : ContentItem
+	Image : TitleItem {
+		.url: EString
+		.rotation: EInt
+	}
+    Card: TitleItem {
+        <+>-fields(0..*)->Field
+    }
+    Field {
+        .icon: EString
+		.tooltip: EString
+        .value: EString
+    }
+    AppCard: Card						 
+	Frame : TitleItem {
+		<>-children(0..*)->GeometricItem
+	}
+}

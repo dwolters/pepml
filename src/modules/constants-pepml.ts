@@ -1,0 +1,1 @@
+export const PLACEMENT_OFFSET = 1; // Number of pixels elements are allowed to overlap

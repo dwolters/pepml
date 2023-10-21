@@ -1,0 +1,14 @@
+{
+    "name": "PEPMLTemporal",
+    "sourceMetamodelName": "Miro.msl",
+    "targetMetamodelName": "PEPML.msl",
+    "gentgg": "PEPMLTemporal.gentgg",
+    "tgg": "PEPMLTemporal.tgg",
+    "preprocessors": [
+        parseContent,
+        determineContainment,
+        determineTimePlanningComposite,
+        determineSpatialRelation,
+        createIgnoreItemsPreprocessor(["Decorators", "EmptyContentItems", "TimeFrames"])
+    ]
+}

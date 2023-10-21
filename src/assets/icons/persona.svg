@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generiert durch Microsoft Visio, SVG Export persona.svg persona -->
+
+<svg
+   width="102.15482pt"
+   height="110.00001pt"
+   viewBox="0 0 102.15489 110.00006"
+   xml:space="preserve"
+   color-interpolation-filters="sRGB"
+   class="st2"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="persona.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/"><defs
+   id="defs22" /><sodipodi:namedview
+   id="namedview20"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:document-units="in"
+   showgrid="false"
+   fit-margin-top="5"
+   fit-margin-left="5"
+   fit-margin-bottom="5"
+   fit-margin-right="5"
+   units="pt"
+   inkscape:zoom="4.5434937"
+   inkscape:cx="-32.023815"
+   inkscape:cy="83.305937"
+   inkscape:window-width="2560"
+   inkscape:window-height="1369"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg18" />
+	<v:documentProperties
+   v:langID="1031"
+   v:metric="true"
+   v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud
+   v:nameU="msvNoAutoConnect"
+   v:val="VT0(1):26" />
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style
+   type="text/css"
+   id="style2">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g
+   v:mID="15"
+   v:index="3"
+   v:groupContext="foregroundPage"
+   id="g16"
+   transform="matrix(6.6875816,0,0,6.6875816,-115.37647,-115.35574)">
+		<title
+   id="title4">persona</title>
+		<v:pageProperties
+   v:drawingScale="0.0393701"
+   v:pageScale="0.0393701"
+   v:drawingUnits="24"
+   v:shadowOffsetX="8.50394"
+   v:shadowOffsetY="-8.50394" />
+		<g
+   id="shape2-1"
+   v:mID="2"
+   v:groupContext="shape"
+   transform="translate(21.7532,-26.1731)">
+			<title
+   id="title6">Kreis.77</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<path
+   d="m 0,47.81 a 3.14,3.14 0 0 1 6.28,0 3.14,3.14 0 1 1 -6.28,0 z"
+   class="st1"
+   id="path8" />
+		</g>
+		<g
+   id="shape3-3"
+   v:mID="3"
+   v:groupContext="shape"
+   transform="translate(18.5,-18.5)">
+			<title
+   id="title11">Tabelle.3</title>
+			<path
+   d="M 12.78,50.95 V 48.21 A 2.40922,3.53907 -180 0 0 10.37,44.67 H 2.41 A 2.40922,3.53907 -180 0 0 0,48.21 v 2.74 z"
+   class="st1"
+   id="path13" />
+		</g>
+	</g>
+</svg>

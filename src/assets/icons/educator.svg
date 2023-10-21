@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="109.99999pt"
+   height="90.862122pt"
+   version="1.1"
+   viewBox="0 0 109.99999 90.862122"
+   id="svg4"
+   sodipodi:docname="educator.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="pt"
+     showgrid="false"
+     fit-margin-left="5"
+     fit-margin-top="5"
+     fit-margin-bottom="5"
+     fit-margin-right="5"
+     inkscape:zoom="5.1152344"
+     inkscape:cx="60.310042"
+     inkscape:cy="62.460481"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="m 86.854215,40.691481 c 1.30146,1.759057 1.28372,4.246571 -0.18657,6.001079 L 70.405276,66.050254 c -2.358675,2.81183 -6.862924,2.087693 -8.222159,-1.31932 L 55.040454,46.807184 C 54.884983,46.42517 54.622904,46.043168 54.2942,45.678916 l 4.464221,33.714206 H 20.52632 l 4.344252,-33.790395 c -0.315377,0.359806 -0.559693,0.746254 -0.697391,1.132703 l -9.750146,27.380284 c -0.897279,2.523107 -3.673561,3.842314 -6.1965548,2.940555 -2.523107,-0.897279 -3.842314,-3.673562 -2.944989,-6.196555 L 15.031637,43.483979 c 1.896765,-5.330388 7.600252,-9.377048 13.242105,-9.377048 h 22.379101 c 5.556908,0 11.344885,3.953414 13.401306,9.106065 l 4.259875,10.68295 10.922889,-13.445654 c 1.545841,-1.843433 4.171062,-2.24769 6.174382,-1.061632 L 102.87678,17.400739 103.48089,16.641157 105,17.849379 104.39589,18.60896 Z M 40.582463,30.874698 c 7.142663,0 12.939624,-5.792412 12.939624,-12.939624 C 53.522087,10.792411 47.72524,5 40.582463,5 33.435252,5 27.64284,10.792411 27.64284,17.935074 c 0,7.147212 5.792412,12.939624 12.939623,12.939624 z M 11.469164,79.394589 v 6.467534 h 58.220913 v -6.467534 z"
+     fill-rule="evenodd"
+     id="path2"
+     style="stroke-width:1.13715" />
+</svg>

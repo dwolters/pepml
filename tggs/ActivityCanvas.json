@@ -1,0 +1,15 @@
+{
+    "name": "ActivityCanvas",
+    "sourceMetamodelName": "Miro.msl",
+    "targetMetamodelName": "PEPML.msl",
+    "gentgg": "ActivityCanvas.gentgg",
+    "tgg": "ActivityCanvas.tgg",
+    "preprocessors": [
+        parseContent,
+        createIgnoreItemsPreprocessor(["EmptyContentItems"]),
+        determineContainment,
+        determineTimePlanningComposite,
+        determineSpatialRelation,
+        createIgnoreItemsPreprocessor(["Decorators", "TimeFrames"])
+    ]
+}

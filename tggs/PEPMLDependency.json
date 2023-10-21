@@ -1,0 +1,11 @@
+{
+    "name": "PEPMLDependency",
+    "sourceMetamodelName": "Miro.msl",
+    "targetMetamodelName": "PEPML.msl",
+    "gentgg": "PEPMLDependency.gentgg",
+    "tgg": "PEPMLDependency.tgg",
+    "preprocessors": [
+        parseContent,
+        determineSpatialRelation
+    ]
+}

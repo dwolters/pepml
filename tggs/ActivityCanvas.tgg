@@ -1,0 +1,48 @@
+tripleRule AddAllResourcesToComponent: MiroToPEPMLTemporal {
+	target {
+		ec: EducationComponent {
+			++-resources->r
+		}
+		r: Resource
+	}
+} forbid trg(ExistingResourceRelation)
+
+pattern ExistingResourceRelation {
+		ec: EducationComponent {
+			-resources->r
+		}
+		r: Resource
+}
+
+tripleRule AddAllObjectivesToComponent: MiroToPEPMLTemporal {
+	target {
+		ec: EducationComponent {
+			++-objectives->o
+		}
+		o: Objective
+	}
+} forbid trg(ExistingObjectivesRelation)
+
+pattern ExistingObjectivesRelation {
+		ec: EducationComponent {
+			-objectives->o
+		}
+		o: Objective
+}
+
+
+tripleRule AddAllActivitiesToComponent: MiroToPEPMLTemporal {
+	target {
+		ec: EducationComponent {
+			++-activities->a
+		}
+		a: Activity
+	}
+} forbid trg(ExistingActivitiesRelation)
+
+pattern ExistingActivitiesRelation {
+		ec: EducationComponent {
+			-activities->a
+		}
+		a: Activity
+}

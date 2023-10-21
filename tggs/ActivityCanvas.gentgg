@@ -1,0 +1,18 @@
+Board <=> EducationProgramme
+-items <=> -entities
+
+Rectangle{-south->Rectangle{.meta_type="TimePlanning"}} <=> EducationComponent
+.name <=> .name
+
+StickyNote{<-contains-Rectangle?{.meta_area="Outcome"}} <=> Outcome
+.name <=> .name
+
+StickyNote{<-contains-Rectangle?{.meta_area="Resource"}} <=> Resource
+.name <=> .name
+
+Rectangle{<-contains-Rectangle?{.meta_type="TimePlanning"}} <=> Activity
+.name <=> .name
+.duration <=> .duration
+-south <=> -next
+-connectedTo <=> -uses
+-connectedTo <=> -addresses

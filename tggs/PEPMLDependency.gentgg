@@ -1,0 +1,45 @@
+
+Circle <=Circle2Topic=> Topic
+.name <=> .name
+.borderStyle <=> .isOptional
+["dashed"=true,"normal"=false]
+-connectedTo{.endCap="triangle"} <=> -subTopicOf
+
+Image{.url="https://dwolt.de/pepml/assets/educator.svg"} <=> Educator
+-south->Text.name <=> .name
+-connectedTo{.endCap="rounded_stealth"} <=> -involvedIn
+(.caption <=> .role)
+
+Image{.url="https://dwolt.de/pepml/assets/persona.svg"} <=> Persona
+-south->Text.name <=> .name
+
+Board <=> EducationProgramme
+-items <=> -entities
+
+Rectangle <=> EducationComponent
+.name <=> .name
+.text <=> .description
+-connectedTo{.endCap="filled_oval"} <=> -covers
+-connectedTo{.startCap="filled_diamond"} <=> -objectives
+-connectedTo{.endCap="erd_many"} <=> -requires
+forbid src(ContainsOtherRectangle) && trg(IsComposite)
+
+Rectangle <=> EducationComposite
+.name <=> .name
+.text <=> .description
+-connectedTo{.endCap="filled_oval"} <=> -covers
+-connectedTo{.startCap="filled_diamond"} <=> -objectives
+-connectedTo{.startCap="filled_diamond"} <=> -contains
+
+RoundRectangle <=> Objective
+.name <=> .name
+.text <=> .description
+-connectedTo <=> -relevantFor
+
+AppCard <=> Task
+.title <=> .name
+-fields- <=> -hasStatus
+-connectedTo <=> <-hasTask
+
+Field{<-fields-AppCard .tooltip="Status"} <=> Status
+.value <=> .name

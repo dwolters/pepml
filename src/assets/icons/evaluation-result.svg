@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generiert durch Microsoft Visio, SVG Export evaluation-result.svg evluation-result -->
+
+<svg
+   width="90.14505pt"
+   height="109.99999pt"
+   viewBox="0 0 90.144806 109.99989"
+   xml:space="preserve"
+   color-interpolation-filters="sRGB"
+   class="st5"
+   version="1.1"
+   id="svg78"
+   sodipodi:docname="evaluation-result.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/"><defs
+   id="defs82" /><sodipodi:namedview
+   id="namedview80"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:document-units="in"
+   showgrid="false"
+   units="pt"
+   fit-margin-top="5"
+   fit-margin-left="5"
+   fit-margin-bottom="5"
+   fit-margin-right="5"
+   inkscape:zoom="5.3818406"
+   inkscape:cx="60.109547"
+   inkscape:cy="73.302059"
+   inkscape:window-width="2560"
+   inkscape:window-height="1369"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg78" />
+	<v:documentProperties
+   v:langID="1031"
+   v:metric="true"
+   v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud
+   v:nameU="msvNoAutoConnect"
+   v:val="VT0(1):26" />
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style
+   type="text/css"
+   id="style2">
+	<![CDATA[
+		.st1 {fill:#000000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st3 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st4 {fill:#000000;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g
+   v:mID="12"
+   v:index="5"
+   v:groupContext="foregroundPage"
+   id="g76"
+   transform="matrix(1.1673949,0,0,1.1673949,-16.0132,-16.012262)">
+		<title
+   id="title4">evluation-result</title>
+		<v:pageProperties
+   v:drawingScale="0.0393701"
+   v:pageScale="0.0393701"
+   v:drawingUnits="24"
+   v:shadowOffsetX="8.50394"
+   v:shadowOffsetY="-8.50394" />
+		<g
+   id="shape1-1"
+   v:mID="1"
+   v:groupContext="shape"
+   transform="translate(18.12,-18.12)">
+			<title
+   id="title6">Tabelle.1</title>
+			<path
+   d="M 56.69,36.62 H 2.83 A 2.83464,2.83464 -180 0 0 0,39.45 v 79.37 a 2.83465,2.83465 -180 0 0 2.83,2.84 H 65.2 a 2.83465,2.83465 -180 0 0 2.83,-2.84 V 47.96 Z"
+   class="st1"
+   id="path8" />
+		</g>
+		<g
+   id="shape2-3"
+   v:mID="2"
+   v:groupContext="shape"
+   transform="translate(74.8129,-91.8208)">
+			<title
+   id="title11">Rechtwinkliges Dreieck</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<path
+   d="M 0,121.66 H 11.34 L 0,110.32 Z"
+   class="st2"
+   id="path13" />
+		</g>
+		<g
+   id="shape3-5"
+   v:mID="3"
+   v:groupContext="shape"
+   transform="translate(26.6239,-71.9783)">
+			<title
+   id="title16">Rechteck</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<rect
+   x="0"
+   y="110.321"
+   width="11.3386"
+   height="11.3386"
+   rx="2.83465"
+   ry="2.83465"
+   class="st3"
+   id="rect18" />
+		</g>
+		<g
+   id="shape4-7"
+   v:mID="4"
+   v:groupContext="shape"
+   transform="translate(46.4664,-79.0649)">
+			<title
+   id="title21">Rechteck.4</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<rect
+   x="0"
+   y="117.407"
+   width="31.181101"
+   height="4.2519698"
+   rx="2.1259799"
+   ry="2.1259799"
+   class="st3"
+   id="rect23" />
+		</g>
+		<g
+   id="shape5-9"
+   v:mID="5"
+   v:groupContext="shape"
+   transform="translate(46.4664,-71.9783)">
+			<title
+   id="title26">Rechteck.5</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<rect
+   x="0"
+   y="117.407"
+   width="31.181101"
+   height="4.2519698"
+   rx="2.1259799"
+   ry="2.1259799"
+   class="st3"
+   id="rect28" />
+		</g>
+		<g
+   id="shape6-11"
+   v:mID="6"
+   v:groupContext="shape"
+   transform="translate(26.6239,-52.1357)">
+			<title
+   id="title31">Rechteck.12</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<rect
+   x="0"
+   y="110.321"
+   width="11.3386"
+   height="11.3386"
+   rx="2.83465"
+   ry="2.83465"
+   class="st3"
+   id="rect33" />
+		</g>
+		<g
+   id="shape7-13"
+   v:mID="7"
+   v:groupContext="shape"
+   transform="translate(46.4664,-59.2224)">
+			<title
+   id="title36">Rechteck.13</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<rect
+   x="0"
+   y="117.407"
+   width="31.181101"
+   height="4.2519698"
+   rx="2.1259799"
+   ry="2.1259799"
+   class="st3"
+   id="rect38" />
+		</g>
+		<g
+   id="shape8-15"
+   v:mID="8"
+   v:groupContext="shape"
+   transform="translate(46.4664,-52.1357)">
+			<title
+   id="title41">Rechteck.14</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<rect
+   x="0"
+   y="117.407"
+   width="31.181101"
+   height="4.2519698"
+   rx="2.1259799"
+   ry="2.1259799"
+   class="st3"
+   id="rect43" />
+		</g>
+		<g
+   id="shape9-17"
+   v:mID="9"
+   v:groupContext="shape"
+   transform="translate(26.6239,-32.2932)">
+			<title
+   id="title46">Rechteck.15</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<rect
+   x="0"
+   y="110.321"
+   width="11.3386"
+   height="11.3386"
+   rx="2.83465"
+   ry="2.83465"
+   class="st3"
+   id="rect48" />
+		</g>
+		<g
+   id="shape10-19"
+   v:mID="10"
+   v:groupContext="shape"
+   transform="translate(46.4664,-39.3798)">
+			<title
+   id="title51">Rechteck.16</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<rect
+   x="0"
+   y="117.407"
+   width="31.181101"
+   height="4.2519698"
+   rx="2.1259799"
+   ry="2.1259799"
+   class="st3"
+   id="rect53" />
+		</g>
+		<g
+   id="shape11-21"
+   v:mID="11"
+   v:groupContext="shape"
+   transform="translate(46.4664,-32.2932)">
+			<title
+   id="title56">Rechteck.17</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<rect
+   x="0"
+   y="117.407"
+   width="31.181101"
+   height="4.2519698"
+   rx="2.1259799"
+   ry="2.1259799"
+   class="st3"
+   id="rect58" />
+		</g>
+		<g
+   id="shape19-23"
+   v:mID="19"
+   v:groupContext="shape"
+   transform="rotate(45,81.96073,122.17145)">
+			<title
+   id="title61">Kreuz</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="ScaleFactor"
+   v:val="VT0(1):26" />
+				<v:ud
+   v:nameU="ControlX1"
+   v:val="VT0(0):26" />
+				<v:ud
+   v:nameU="ControlY1"
+   v:val="VT0(0.66929133858268):24" />
+				<v:ud
+   v:nameU="ControlX2"
+   v:val="VT0(0.66929133858268):24" />
+				<v:ud
+   v:nameU="ControlY2"
+   v:val="VT0(0):26" />
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				<v:ud
+   v:nameU="LockBars"
+   v:prompt=""
+   v:val="VT0(1):5" />
+				<v:ud
+   v:nameU="visMasterStencil"
+   v:prompt=""
+   v:val="VT4(Basic_M.vssx)" />
+				<v:ud
+   v:nameU="ControlY1"
+   v:prompt=""
+   v:val="VT0(0.062637408303816):1" />
+				<v:ud
+   v:nameU="ControlX2"
+   v:prompt=""
+   v:val="VT0(0.062637408303816):1" />
+			</v:userDefs>
+			<path
+   d="m 0.57,117.15 h 3.37 a 0.566929,0.566929 0 0 1 0.566929,0.56693 L 4.51,121.09 a 0.566929,0.566929 -180 0 0 0.566929,0.56693 L 6.13,121.66 a 0.566929,0.566929 -180 0 0 0.566929,-0.56693 L 6.7,117.72 a 0.566929,0.566929 0 0 1 0.566929,-0.56693 L 10.64,117.15 a 0.566929,0.566929 -180 0 0 0.566929,-0.56693 L 11.21,115.53 a 0.566929,0.566929 -180 0 0 -0.566929,-0.56693 L 7.27,114.96 A 0.566929,0.566929 0 0 1 6.703071,114.39307 L 6.7,111.02 A 0.566929,0.566929 -180 0 0 6.133071,110.45307 L 5.08,110.45 a 0.566929,0.566929 -180 0 0 -0.566929,0.56693 L 4.51,114.39 a 0.566929,0.566929 0 0 1 -0.566929,0.56693 L 0.57,114.96 a 0.566929,0.566929 -180 0 0 -0.566929,0.56693 L 0,116.58 a 0.566929,0.566929 -180 0 0 0.566929,0.56693 z"
+   class="st4"
+   id="path63" />
+		</g>
+		<g
+   id="shape20-25"
+   v:mID="20"
+   v:groupContext="shape"
+   transform="rotate(-50,-63.192704,51.049236)">
+			<title
+   id="title66">L-Form</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:prompt=""
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<path
+   d="m 0.57,121.66 h 7.36 a 0.566929,0.566929 -180 0 0 0.566929,-0.56693 L 8.49,119.85 A 0.566929,0.566929 -180 0 0 7.923071,119.28307 L 2.86,119.28 A 0.566929,0.566929 0 0 1 2.293071,118.71307 L 2.29,117.13 A 0.566929,0.566929 -180 0 0 1.723071,116.56307 L 0.57,116.56 a 0.566929,0.566929 -180 0 0 -0.566929,0.56693 L 0,121.09 a 0.566929,0.566929 -180 0 0 0.566929,0.56693 z"
+   class="st4"
+   id="path68" />
+		</g>
+		<g
+   id="shape21-27"
+   v:mID="21"
+   v:groupContext="shape"
+   transform="rotate(-50,-20.64025,70.891771)">
+			<title
+   id="title71">L-Form.21</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:prompt=""
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<path
+   d="m 0.57,121.66 h 7.36 a 0.566929,0.566929 -180 0 0 0.566929,-0.56693 L 8.49,119.85 A 0.566929,0.566929 -180 0 0 7.923071,119.28307 L 2.86,119.28 A 0.566929,0.566929 0 0 1 2.293071,118.71307 L 2.29,117.13 A 0.566929,0.566929 -180 0 0 1.723071,116.56307 L 0.57,116.56 a 0.566929,0.566929 -180 0 0 -0.566929,0.56693 L 0,121.09 a 0.566929,0.566929 -180 0 0 0.566929,0.56693 z"
+   class="st4"
+   id="path73" />
+		</g>
+	</g>
+</svg>

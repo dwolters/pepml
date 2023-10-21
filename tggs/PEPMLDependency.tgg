@@ -1,0 +1,12 @@
+pattern ContainsOtherRectangle {
+  r: Rectangle {
+    -connectedTo->r2 {
+      .startCap := "filled_diamond"
+    }
+  }
+  r2: Rectangle
+}
+
+pattern IsComposite {
+  ec: EducationComposite
+}

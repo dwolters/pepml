@@ -1,0 +1,34 @@
+Board <=> EducationProgramme
+-items <=> -entities
+
+Rectangle{.meta_type="Track"} <=> Track
+
+Rectangle{.meta_type="TimePlanning"}<=>TimePlanningComposite
+.name <=> .name
+-contains <=> -contains
+-contains <=> -hasTracks
+-east <=> -next
+-south <=> -parallel
+
+Rectangle<=>EducationComponent
+.name <=> .name
+.duration <=> .duration
+.startTime <=> .startTime
+.borderStyle <=> .isMandatory
+["dashed"=false,"normal"=true]
+-east <=> -next
+-south <=> -parallel
+forbid src(ContainsOtherRectangle) && src(NotInTimePlanning) && trg(IsComposite)
+
+Rectangle{<-contains-Rectangle{.meta_type="TimePlanning"}}<=Rect2EC_inTPC:Rect2EC_inTPC=>EducationComponent{<-contains-TimePlanningComposite}
+.name <=> .name
+.duration <=> .duration
+.startTime <=> .startTime
+-east <=> -parallel
+-south <=> -next
+-spans <=> -inTracks
+
+Rectangle<=>EducationComposite
+.name <=> .name
+-contains <=> -contains
+-east <=> -next

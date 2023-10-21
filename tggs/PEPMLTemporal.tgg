@@ -1,0 +1,18 @@
+pattern IsComposite{
+  ec: EducationComposite
+}
+
+pattern NotInTimePlanning {
+  r2: Rectangle {
+    .meta_type:="TimePlanning"
+    -contains->r
+  }
+  r: Rectangle
+}
+
+pattern ContainsOtherRectangle {
+  r: Rectangle {
+    -contains->r2
+  }
+  r2: Rectangle
+}

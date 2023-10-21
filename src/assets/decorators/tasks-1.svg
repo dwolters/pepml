@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generiert durch Microsoft Visio, SVG Export tasks-1.svg f1 -->
+
+<svg
+   width="1.0072689in"
+   height="1.0072675in"
+   viewBox="0 0 72.523379 72.523363"
+   xml:space="preserve"
+   color-interpolation-filters="sRGB"
+   class="st4"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="tasks-1.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/"><defs
+   id="defs26">
+		
+		
+		
+		
+	
+			
+			
+			
+			
+			
+					</defs><sodipodi:namedview
+   id="namedview24"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:document-units="in"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="0.77771556"
+   inkscape:cx="144.65443"
+   inkscape:cy="273.23614"
+   inkscape:window-width="2560"
+   inkscape:window-height="1369"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg22" />
+	<v:documentProperties
+   v:langID="1031"
+   v:metric="true"
+   v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud
+   v:nameU="msvNoAutoConnect"
+   v:val="VT0(1):26" />
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style
+   type="text/css"
+   id="style2">
+	<![CDATA[
+		.st1 {fill:#000000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#ffffff;font-family:Calibri;font-size:6em}
+		.st4 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g
+   id="shape1-1"
+   v:mID="1"
+   v:groupContext="shape"
+   transform="translate(0.12134917,-769.83886)">
+			<title
+   id="title6">Kreis</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+			</v:userDefs>
+			<path
+   d="m 0,805.75 a 36.1417,36.1417 0 0 1 72.28,0 36.1417,36.1417 0 1 1 -72.28,0 z"
+   class="st1"
+   id="path8" />
+		</g><text
+   x="18.012354"
+   y="57.506149"
+   class="st3"
+   v:langID="1031"
+   id="text17"><v:paragraph
+   v:horizAlign="1" /><v:tabList />1</text>
+</svg>
